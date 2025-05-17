@@ -1,0 +1,243 @@
+/* Main container styles */
+.main {
+  background-color: var(--dark-black);
+  color: var(--ghost-white);
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+}
+
+.title {
+  font-family: 'Creepster', cursive;
+  font-size: 4rem;
+  color: #8b0000; /* dark blood red */
+  text-align: center;
+  position: relative;
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+
+  text-shadow:
+    1px 1px 0 #000,
+    2px 2px 3px rgba(255, 0, 0, 0.5);
+}
+
+/* Arrow underline effect */
+.title::after {
+  content: '▼';
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  color: #8b0000;
+  text-shadow: 0 0 3px #ff0000;
+  animation: pulse-arrow 2s infinite;
+}
+
+@keyframes pulse-arrow {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateX(-50%) translateY(5px);
+    opacity: 1;
+  }
+}
+
+/* Main content paragraph style */
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace; /* Coding-style font */
+  color: white;
+}
+
+.content p{
+  margin: 50px auto;
+}
+
+/* Optional image styling */
+.image {
+  margin: 2rem auto;
+  display: block;
+  border: 3px solid var(--blood-red);
+  box-shadow: 0 0 15px #ff0000;
+  max-width: 100%;
+}
+
+.subtitle {
+  margin: 15px 0;
+  font-family: 'Creepster', cursive;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 2px #400000;
+}
+
+.button {
+  width: 200px;
+  height: 60px; /* increase height */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0px 15px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  margin: 100px auto;
+
+  font-size: 16px;       /* adjust text size */
+  font-weight: 600;      /* make font bold */
+}
+
+
+.bell {
+  width: 13px;
+}
+
+.bell path {
+  fill: rgb(0, 206, 62);
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: rgb(77, 77, 77);
+  transition-duration: .2s;
+}
+
+.button:hover .arrow {
+  animation: slide-right .6s ease-out both;
+}
+/* arrow animation */
+@keyframes slide-right {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.button:active {
+  transform: translate(1px , 1px);
+  transition-duration: .2s;
+}
+
+
+/*Here is for Ghost intro*/
+
+.pageContainer {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 80px 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: rgb(33, 33, 33);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #a36e6e; /* a nice red to match your button font */
+}
+
+.section p {
+  margin: 10px auto 55px auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Keep your existing .button styles as is */
+
+/*Here is back button de code*/
+
+.custombutton {
+  background-color: white;
+  color: black;
+  width: 192px; /* 48 * 4px */
+  height: 56px; /* 14 * 4px */
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  /* Flex to align content */
+  display: flex;
+  align-items: center;
+  padding-left: 60px; /* space for the expanding bar */
+  gap: 10px;
+}
+
+.bar {
+  background-color: #22c55e; /* green-400 */
+  border-radius: 12px;
+  height: 48px; /* 12 * 4px */
+  width: 25%; /* initial small width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  transition: width 0.5s ease;
+  z-index: 10;
+}
+
+.custombutton:hover .bar {
+  width: 184px; /* expands horizontally */
+}
+
+.buttontext {
+  position: relative;
+  z-index: 20;
+  user-select: none;
+  margin-left: 10px;
+}
+
+.custombutton:hover .bar svg {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+

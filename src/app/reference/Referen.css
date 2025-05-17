@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+.referen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #0d0d0d;
+  font-family: 'IM Fell English SC', serif;
+  min-height: 100vh;
+  color: #e6e6e6;
+}
+
+.referen-card {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.referen-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ff4d4d;
+}
+
+.referen-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #cccccc;
+}
+
+.referen-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.referen-list li {
+  margin: 10px 0;
+}
+
+.referen-list a {
+  color: #66b3ff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.referen-list a:hover {
+  text-decoration: underline;
+  color: #ffa07a;
+}
+
+.referen-footer {
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+}
