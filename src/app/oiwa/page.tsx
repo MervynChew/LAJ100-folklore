@@ -23,15 +23,15 @@ export default function OiwaPage() {
 
         <section className={styles.section}>
           <h2>🪨 Meaning of the Name</h2>
-          <p>Oiwa is a girl’s name that means “rock.”</p>
+          <p>Oiwa is a girl&rsquo;s name that means &ldquo;rock.&rdquo;</p>
         </section>
 
         <section className={styles.section}>
           <h2>👻 Who is Oiwa?</h2>
           <p>
-            She’s famous as a tragic and scary ghost, an onryō, from the story
-            called Yotsuya Kaidan — also known as “the ghost story of Yotsuya.”
-            Along with Okiku and Otsuyu, she’s one of Japan’s Big Three Ghost
+            She&rsquo;s famous as a tragic and scary ghost, an onryō, from the story
+            called Yotsuya Kaidan — also known as &ldquo;the ghost story of Yotsuya.&rdquo;
+            Along with Okiku and Otsuyu, she&rsquo;s one of Japan&rsquo;s Big Three Ghost
             Stories.
           </p>
         </section>
@@ -39,7 +39,7 @@ export default function OiwaPage() {
         <section className={styles.section}>
           <h2>📜 The Real History</h2>
           <p>
-            Oiwa’s story is actually based on real people who lived in Edo (old
+            Oiwa&rsquo;s story is actually based on real people who lived in Edo (old
             Tokyo) in the 1600s. Their tale got popular after it was turned into
             a kabuki play in 1825 called Tōkaidō Yotsuya Kaidan. This play made
             Oiwa probably the most famous ghost in Japan. Since then, many
@@ -62,7 +62,7 @@ export default function OiwaPage() {
           <h2>⛩️ Shrines and Memorials</h2>
           <p>
             There are shrines and temples built for her spirit. The first one
-            was on the site of her family’s house in Yotsuya. That shrine got
+            was on the site of her family&rsquo;s house in Yotsuya. That shrine got
             destroyed by fire in 1879, and then again during World War II
             bombings. After the war, her shrine and the original spot in Yotsuya
             were rebuilt.

@@ -9,7 +9,7 @@ import { useEffect, useRef, useState } from 'react';
 const scenes = [
   {
     title: '👻 Born from Betrayal: The Birth of a Curse',
-    text: `They say when a woman dies during childbirth, her soul doesn’t always rest. Especially if she is in pain and got angry in her heart.
+    text: `They say when a woman dies during childbirth, her soul doesn't always rest. Especially if she is in pain and got angry in her heart.
 
     Long ago, in a quiet kampung somewhere in Southeast Asia, a woman was betrayed by the man she loved. Pregnant, abandoned, and left to die in agony, she took her final breath not with peace—but with rage. That rage twisted her spirit into something else. Something terrifying. From her grave, she rose as the Pontianak.`,
     image: '/image/pon_scene1.webp',
@@ -17,7 +17,7 @@ const scenes = [
   },
   {
     title: '🌙 The Beautiful Horror That Walks at Night',
-    text: `Pontianak not look like monster at first. She walk at night like normal pretty lady — long black hair, white dress, very ghostly beautiful. But don’t be fooled. That beauty is just a mask.
+    text: `Pontianak not look like monster at first. She walk at night like normal pretty lady — long black hair, white dress, very ghostly beautiful. But don't be fooled. That beauty is just a mask.
 
     If you smell frangipani at night, or hear baby crying but no baby around — better run fast fast. If cry faint, she dekat already. If cry loud, maybe she is right behind you.
 
@@ -36,14 +36,14 @@ const scenes = [
 
     She especially like to attack men — those who remind her of the boyfriend who leave her. But also pregnant ladies, kids, or anyone who cross her path at night.
 
-    She use her very sharp nails to rip open belly, eat the organs. Sometimes she hide her real scary face, pretend helpless, cry soft soft to lure you close — then it’s already too late.
+    She use her very sharp nails to rip open belly, eat the organs. Sometimes she hide her real scary face, pretend helpless, cry soft soft to lure you close — then it's already too late.
 `,
     image: '/image/pon_scene3.jpg',
     audio: '/audio/bone_eat.mp3',
   },
   {
     title: '🌳 Where She Hide',
-    text: `During daytime, Pontianak is said to rest inside banana tree. That’s why some kampung no dare plant banana tree too near house, or hang clothes outside at night. Because smell like that can attract her.
+    text: `During daytime, Pontianak is said to rest inside banana tree. That's why some kampung no dare plant banana tree too near house, or hang clothes outside at night. Because smell like that can attract her.
 
     If you want safe, some people say can put nail at back of her neck. Then she become normal woman, quiet and powerless. But once the nail is removed, she remembers everything.
 
@@ -59,7 +59,7 @@ const scenes = [
     Whether you believe or not, remember this:
     If you're walking alone at night and catch the scent of frangipani...
 
-    Don’t turn around.
+    Don't turn around.
 `,
     image: '/image/pon_scene5.jpg',
     audio: '/audio/smell.mp3',

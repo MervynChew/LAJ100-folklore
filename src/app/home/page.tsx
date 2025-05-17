@@ -26,15 +26,15 @@ export default function HomePage() {
 
           <p>
             I believe most of us, deep inside, are scared of ghosts? Maybe not everyone admits it —
-            but come on lah, who doesn’t feel uneasy when walking alone in a dark, quiet place? As
-            for me… I don’t really believe in God, but somehow, I do believe in ghosts. Weird, I know.
+            but come on lah, who doesn&rsquo;t feel uneasy when walking alone in a dark, quiet place? As
+            for me… I don&rsquo;t really believe in God, but somehow, I do believe in ghosts. Weird, I know.
             But sometimes, I just feel like something is there… watching. Especially in gloomy places —
             the kind where the air feels heavy, and the silence is too loud.
           </p>
 
           <p>
-            And the worst part? When I’m all alone. You might not have experienced a ghost yourself —
-            but I bet that you’ve heard at least one before. Maybe from your cousin, your grandma, or
+            And the worst part? When I&rsquo;m all alone. You might not have experienced a ghost yourself —
+            but I bet that you&rsquo;ve heard at least one before. Maybe from your cousin, your grandma, or
             your friend who swore they saw something at night. Maybe even that abandoned house near
             your taman… the swing which swings with no wind.
           </p>
@@ -48,16 +48,16 @@ export default function HomePage() {
           />
 
           <p>
-            If you’re planning to dive into these ghost stories… just make sure you’re not alone.
-            Sometimes, the one sitting beside you... wasn’t there before.
+            If you&rsquo;re planning to dive into these ghost stories… just make sure you&rsquo;re not alone.
+            Sometimes, the one sitting beside you... wasn&rsquo;t there before.
           </p>
 
           <p>
-            Who hasn't heard ghost stories before, right? I believe that every country has their own
-            superstitions and thus comes with different ghosts. Whether it’s told when you are still
-            small by your grandma, or watched in a late-night horror movie, these tales aren’t just
+            Who hasn&rsquo;t heard ghost stories before, right? I believe that every country has their own
+            superstitions and thus comes with different ghosts. Whether it&rsquo;s told when you are still
+            small by your grandma, or watched in a late-night horror movie, these tales aren&rsquo;t just
             for scares. Actually, they show us what each culture believes about life, death, and
-            things we can’t see with our eyes.
+            things we can&rsquo;t see with our eyes.
           </p>
 
           <p>
@@ -72,7 +72,7 @@ export default function HomePage() {
           <p>
             Over here in Malaysia, our ghost stories are usually passed down from our grandma or
             grandpa. These ghosts often carry a message — kalau buat salah, mesti ada akibat.
-            It’s not just to scare people, but also to teach about adat, agama, and respecting the
+            It&rsquo;s not just to scare people, but also to teach about adat, agama, and respecting the
             unknown or unseen world.
           </p>
 

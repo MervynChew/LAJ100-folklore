@@ -22,11 +22,11 @@ export default function HomePage() {
           />
 
           <p>
-            Malaysian ghost stories also often involve revenge. Many of these spirits died because of betrayal, abuse, or injustice. That’s why when we hear their stories, we can sort of feel their anger or sadness. Maybe that’s what makes it more frightening — the emotion and their expression.
+            Malaysian ghost stories also often involve revenge. Many of these spirits died because of betrayal, abuse, or injustice. That&rsquo;s why when we hear their stories, we can sort of feel their anger or sadness. Maybe that&rsquo;s what makes it more frightening — the emotion and their expression.
           </p>
 
           <p>
-            But if we talk about variety and imagination, then I think Japanese folklore really stands out. There are so many different types of creatures — some look like half-human, half-animal; some are living objects like umbrellas with eyes; and there are even toilet spirits like Hanako-san. Not all of them are bad. Some are harmless, or even helpful. For example, there’s Zashiki-warashi, a child spirit said to bring good luck to a household. Honestly, it’s quite different from Malaysian ghosts, which usually bring fear.
+            But if we talk about variety and imagination, then I think Japanese folklore really stands out. There are so many different types of creatures — some look like half-human, half-animal; some are living objects like umbrellas with eyes; and there are even toilet spirits like Hanako-san. Not all of them are bad. Some are harmless, or even helpful. For example, there&rsquo;s Zashiki-warashi, a child spirit said to bring good luck to a household. Honestly, it&rsquo;s quite different from Malaysian ghosts, which usually bring fear.
           </p>
 
           <Image
@@ -42,7 +42,7 @@ export default function HomePage() {
           </p>
 
           <p>
-            In Malaysia, our ghost stories are mostly passed down through word of mouth, or from older generations. And because we don’t have much influence on Japan's culture, maybe anime? And this makes us have less knowledge about our own culture. I was shocked to know those ghosts in Malaysia when I surveyed them because I totally have no idea what it is, for example Pocong. This is my first time knowing this.
+            In Malaysia, our ghost stories are mostly passed down through word of mouth, or from older generations. And because we don&rsquo;t have much influence on Japan&rsquo;s culture, maybe anime? And this makes us have less knowledge about our own culture. I was shocked to know those ghosts in Malaysia when I surveyed them because I totally have no idea what it is, for example Pocong. This is my first time knowing this.
           </p>
 
           <p>

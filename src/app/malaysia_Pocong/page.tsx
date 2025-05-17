@@ -13,7 +13,7 @@ const scenes = [
 
     But after the burial, they forgot something.
 
-    You’re supposed to untie the knot at the feet after putting the body in the grave. They didn’t do it. And that’s when the trouble started.
+    You're supposed to untie the knot at the feet after putting the body in the grave. They didn't do it. And that's when the trouble started.
 `,
     image: '/image/poc_scene1.jpg',
     audio: '/audio/suspense.mp3',
@@ -49,7 +49,7 @@ const scenes = [
   },
   {
     title: '🌕 Chapter 4: Stupid Dare',
-    text: `A few boys thought it was all fake. So they dared each other to go to Mak Som’s grave at midnight.
+    text: `A few boys thought it was all fake. So they dared each other to go to Mak Som's grave at midnight.
 
     One boy, Azman, touched the headstone and laughed. “See? I told you already. Nothing!”
 
@@ -70,7 +70,7 @@ const scenes = [
     title: '☠️ Chapter 5: The Bomoh Said…',
     text: `The villagers called a bomoh and the imam. After checking the grave, the bomoh looked serious.
 
-    “She’s not at peace. Her foot tie is still there.”
+    “She's not at peace. Her foot tie is still there.”
 
     He told everyone to stay indoors after dark. Burn incense. Pray for her soul.
 

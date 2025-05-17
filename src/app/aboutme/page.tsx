@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 import Header from '../../components/Header';
+import Image from 'next/image';
 
 const AboutMe: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const AboutMe: React.FC = () => {
     <Header />
       <div className="about-container">
         <div className="about-card">
-          <img
+          <Image
             src="/about/me.png" // Replace with actual photo file name
             alt="Mervyn"
             className="profile-image"
@@ -24,13 +25,13 @@ const AboutMe: React.FC = () => {
 
             <div className="social-links">
               <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-                <img src="/about/github.svg" alt="GitHub" />
+                <Image src="/about/github.svg" alt="GitHub" />
               </a>
               <a href="https://www.linkedin.com/in/mervyn-chew-9458b4298/" target="_blank" rel="noopener noreferrer">
-                <img src="/about/linkedin.png" alt="LinkedIn" />
+                <Image src="/about/linkedin.png" alt="LinkedIn" />
               </a>
               <a href="https://www.instagram.com/mervvv_vyn/" target="_blank" rel="noopener noreferrer">
-                <img src="/about/instagram.avif" alt="Instagram" />
+                <Image src="/about/instagram.avif" alt="Instagram" />
               </a>
             </div>
           </div>

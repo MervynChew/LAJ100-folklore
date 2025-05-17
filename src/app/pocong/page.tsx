@@ -23,7 +23,7 @@ export default function OiwaPage() {
 
         <section className={styles.section}>
           <h2>👻 Who is Pocong?</h2>
-          <p>The Pocong is a famous ghost in Malaysian and Indonesian folklore. It’s said to be the spirit of a dead person trapped inside their white burial shroud, called a kain kafan. When someone dies and is buried according to Muslim customs, their body is wrapped tightly in this shroud with ties at the head, feet, and waist. If these ties are not properly undone after burial or after 40 days (it is believed that human soul will remain in the earth for 40 days after death), the soul is believed to be stuck inside the shroud and can’t rest peacefully. This restless spirit then rises from the grave as a Pocong, wandering the living world.</p>
+          <p>The Pocong is a famous ghost in Malaysian and Indonesian folklore. It&rsquo;s said to be the spirit of a dead person trapped inside their white burial shroud, called a kain kafan. When someone dies and is buried according to Muslim customs, their body is wrapped tightly in this shroud with ties at the head, feet, and waist. If these ties are not properly undone after burial or after 40 days (it is believed that human soul will remain in the earth for 40 days after death), the soul is believed to be stuck inside the shroud and can&rsquo;t rest peacefully. This restless spirit then rises from the grave as a Pocong, wandering the living world.</p>
         </section>
 
         <section className={styles.section}>
@@ -34,14 +34,14 @@ export default function OiwaPage() {
         <section className={styles.section}>
           <h2>⚰️ Why Does It Haunt? </h2>
           <p>
-            The reason a Pocong appears is mainly due to improper burial rituals — the ties around the shroud weren’t loosened or removed after the burial, trapping the spirit inside. The Pocong’s spirit can’t leave the physical world until these ties are undone, so it roams the area near its grave. Sometimes, it’s said to seek help from the living to release it, but other times it just haunts people as a warning or to scare them. Some believe encountering a Pocong is an omen of death or bad luck.
+            The reason a Pocong appears is mainly due to improper burial rituals — the ties around the shroud weren&rsquo;t loosened or removed after the burial, trapping the spirit inside. The Pocong&rsquo;s spirit can&rsquo;t leave the physical world until these ties are undone, so it roams the area near its grave. Sometimes, it&rsquo;s said to seek help from the living to release it, but other times it just haunts people as a warning or to scare them. Some believe encountering a Pocong is an omen of death or bad luck.
           </p>
         </section>
 
         <section className={styles.section}>
           <h2>📜 Cultural Significance and Folklore</h2>
           <p>
-            In Malaysia and Indonesia, the Pocong is one of the most well-known supernatural beings in ghost stories and urban legends. It’s a common figure in scary tales shared during gatherings or on quiet nights. The Pocong reminds people about the importance of respecting burial customs and the dead. While some say the ghost is dangerous and aggressive, others believe it’s more of a restless soul looking for peace. Either way, the Pocong continues to be a powerful symbol of fear and mystery in Southeast Asian culture.
+            In Malaysia and Indonesia, the Pocong is one of the most well-known supernatural beings in ghost stories and urban legends. It&rsquo;s a common figure in scary tales shared during gatherings or on quiet nights. The Pocong reminds people about the importance of respecting burial customs and the dead. While some say the ghost is dangerous and aggressive, others believe it&rsquo;s more of a restless soul looking for peace. Either way, the Pocong continues to be a powerful symbol of fear and mystery in Southeast Asian culture.
           </p>
         </section>
 

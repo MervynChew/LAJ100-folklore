@@ -28,7 +28,7 @@ export default function OiwaPage() {
 
         <section className={styles.section}>
           <h2>🪨 Meaning of the Name</h2>
-          <p>The name "Pontianak" comes from the Malay words "ponti," meaning "dead," and "anak," meaning "child." Together, it reflects the ghost’s tragic and terrifying origin.</p>
+          <p>The name &rsquo;Pontianak&rsquo; comes from the Malay words &rsquo;ponti,&rsquo; meaning &rsquo;dead,&rsquo; and &rsquo;anak,&rsquo; meaning &rsquo;child.&rsquo; Together, it reflects the ghost&rsquo;s tragic and terrifying origin.</p>
         </section>
 
         <section className={styles.section}>

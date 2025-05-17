@@ -1,7 +1,6 @@
 import React from 'react';
 import './Referen.css';
 import Header from '../../components/Header';
-import Styles from '../home/page.module.css'
 
 const Referen = () => {
   return (

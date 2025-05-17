@@ -13,7 +13,7 @@ interface FolkloreRow {
 const folkloreData: FolkloreRow[] = [
   {
     aspect: 'Origin of Ghost Stories',
-    japanese: 'Many ghosts and Yōkai became popular during Edo period (1603–1868), thanks to artists like Toriyama Sekien.',
+    japanese: 'Many ghosts and Yōkai became popular during Edo period (1603-1868), thanks to artists like Toriyama Sekien.',
     malaysian: 'Stories often passed down by word of mouth in kampung; linked to traditional beliefs and death rituals.',
   },
   {
@@ -38,7 +38,7 @@ const folkloreData: FolkloreRow[] = [
   },
   {
     aspect: 'Appearance',
-    japanese: 'Often wear white funeral kimono, long black hair. Some have unique features (e.g. Kuchisake-onna’s mouth).',
+    japanese: 'Often wear white funeral kimono, long black hair. Some have unique features (e.g. Kuchisake-onnas mouth).',
     malaysian: 'Pontianak appears as a beautiful woman in white, Pocong wrapped in burial cloth and hops around.',
   },
 ];
@@ -94,7 +94,7 @@ const FolkloreComparison: React.FC = () => {
           </p>
 
           <p>
-            They call these creatures Yōkai (妖怪) — some got power, some just not normal human. Not all Yōkai are bad, some are just playful, or even helpful. For example, Tengu — it’s like a mountain creature with long nose or bird face, sometimes will help people, not really evil.
+            They call these creatures Yōkai (妖怪) — some got power, some just not normal human. Not all Yōkai are bad, some are just playful, or even helpful. For example, Tengu — it&rsquo;s like a mountain creature with long nose or bird face, sometimes will help people, not really evil.
           </p>
 
           <p>
@@ -102,8 +102,9 @@ const FolkloreComparison: React.FC = () => {
           </p>
 
           <p>
-            Got modern stories also. One very famous is Kuchisake-onna, the “Slit-Mouth Woman”. This story become popular in 1978–1979. She will come and ask you “Am I pretty?” but no matter how you answer, she might still hurt you. Very scary, especially imagine meeting her at night!
+            Got modern stories also. One very famous is Kuchisake-onna, the &ldquo;Slit-Mouth Woman&rdquo;. This story become popular in 1978–1979. She will come and ask you &ldquo;Am I pretty?&rdquo; but no matter how you answer, she might still hurt you. Very scary, especially imagine meeting her at night!
           </p>
+
         </section>
 
         <section className={styles.subtitle}>
@@ -128,7 +129,7 @@ const FolkloreComparison: React.FC = () => {
           </p>
 
           <p>
-            Another one is Pocong. It’s a ghost that still tie up in kain kafan (funeral cloth). The story say that if the cloth never untie properly, the soul cannot rest. So they hop around and scare people. This one also got link to Islamic tradition.
+            Another one is Pocong. It&rsquo;s a ghost that still tie up in kain kafan (funeral cloth). The story say that if the cloth never untie properly, the soul cannot rest. So they hop around and scare people. This one also got link to Islamic tradition.
           </p>
 
           <p>
