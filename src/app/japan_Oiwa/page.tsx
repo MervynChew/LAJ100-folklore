@@ -87,7 +87,9 @@ export default function JapanPage() {
               <p className={styles.content}>{scene.text}</p>
               <audio
                 src={scene.audio}
-                ref={el => (audioRefs.current[index] = el!)}
+                ref={el => {
+                  if (el) audioRefs.current[index] = el;
+                }}
                 preload="auto"
               />
               {index === visibleScenes - 1 && visibleScenes < scenes.length && (
